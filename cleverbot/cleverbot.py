@@ -25,9 +25,9 @@ class Cleverbot(object):
        >>> cb.ask("Hi. How are you?")
        "I'm good, thanks. How are you?"
     """
-    HOST = "www.cleverbot.com"
+    HOST = "www.boibot.com"
     PROTOCOL = "http://"
-    RESOURCE = "/webservicemin?uc=165&"
+    RESOURCE = "/webservicemin?uc=777&botapi=see%20www.cleverbot.com%2Fapis&t=18205"
     API_URL = PROTOCOL + HOST + RESOURCE
 
     headers = {
